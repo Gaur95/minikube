@@ -34,6 +34,9 @@ minikube kubectl -- get po -A
 echo "alias kubectl='minikube kubectl --'" >>.bashrc
 
 ```
+```
+source ~/.bashrc
+```
 ## minikube status
 ```
 minikube status
