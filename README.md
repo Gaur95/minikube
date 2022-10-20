@@ -51,4 +51,7 @@ kubelet: Running
 apiserver: Running
 kubeconfig: Configured
 ```
-
+## Enable auto-completion
+```
+kubectl completion bash | sudo tee /etc/bash_completion.d/kubectl > /dev/null
+```
